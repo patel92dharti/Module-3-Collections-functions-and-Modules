@@ -6,3 +6,5 @@ print("Reverse Value",Tuple)
 
 Tuple=Tuple[::-1]
 print(Tuple)
+Tuple=Tuple[::-1]
+print(Tuple)

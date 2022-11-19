@@ -7,6 +7,8 @@ A key-value pair is contained in each tuple.
 """
 L=(("A",100),("B",200),("A",500),("A",600),("G",20),("C",10),("C",50))
 d={}
+#resultDictionary=dict((x,y) for x,y in L)
+#print(resultDictionary)
 for a,b in L:
     d.setdefault(a,[]).append(b)
 print(d)

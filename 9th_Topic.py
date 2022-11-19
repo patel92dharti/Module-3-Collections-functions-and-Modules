@@ -8,6 +8,6 @@ def printvalue():
     for i in range(1,29):
         l.append(i*i)
         #l.append(i**2)
-        print(l[:5])
-        print(l[-5:])
+    print("First 5 Elements:-",l[:5])
+    print("Last 5 Elements:-",l[-5:])
 printvalue()

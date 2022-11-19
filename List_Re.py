@@ -1,6 +1,7 @@
 #How will you reverse a list?
 List=[1,2,3,4.4,"Dharti","Tops","Apple",1458,100,125,1,2,4,56,10,"Py0",True,200,300,500,False]
 List.reverse()
+#reverse=List[::-1]
 print("Reverse List",List)
 
 

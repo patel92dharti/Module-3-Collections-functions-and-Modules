@@ -12,3 +12,4 @@ def CommonM(a,b):
         return result
 print(CommonM([3,4,100,55,10,20,30],[100,40,60,80,10,1,2]))
 print(CommonM([3,4,100,55],[40,60,80,10]))
+print(CommonM([10,23,45],[100,34,23]))
